@@ -14,42 +14,12 @@ Este projeto ASP.NET Core MVC implementa uma plataforma básica para gerenciamen
 * ASP.NET Core MVC
 * Entity Framework Core
 * Oracle Database (ou outro banco de dados, dependendo da sua configuração)
-* (Adicione outras tecnologias se aplicável, como Bootstrap, jQuery, etc.)
 
 
 ## Pré-requisitos
 
 * .NET SDK (versão X.X ou superior) -  [Download](https://dotnet.microsoft.com/download)
 * Oracle Client (se você estiver usando Oracle Database) - [Download](https://www.oracle.com/database/technologies/instant-client/downloads.html)
-
-## Configuração
-
-1. **Clonar o repositório:**
-   # PlataformaEficienciaEnergetica
-
-Este projeto ASP.NET Core MVC implementa uma plataforma básica para gerenciamento de dados de eficiência energética de prédios.
-
-## Funcionalidades
-
-* Cadastro de prédios com nome e consumo energético.
-* Edição de dados de prédios existentes.
-* Exclusão de prédios.
-* Listagem de prédios cadastrados.
-
-## Tecnologias Utilizadas
-
-* ASP.NET Core MVC
-* Entity Framework Core
-* Oracle Database (ou outro banco de dados, dependendo da sua configuração)
-* (Adicione outras tecnologias se aplicável, como Bootstrap, jQuery, etc.)
-
-
-## Pré-requisitos
-
-* .NET SDK (versão X.X ou superior) -  [Download](https://dotnet.microsoft.com/download)
-* Oracle Client (se você estiver usando Oracle Database) - [Download](https://www.oracle.com/database/technologies/instant-client/downloads.html)
-* (Adicione outros pré-requisitos se aplicável, como Node.js, npm, etc.)
-
 
 ## Configuração
 
