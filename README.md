@@ -64,11 +64,4 @@ O aplicativo será iniciado e estará acessível em https://localhost:5001 (ou e
 **Este projeto está licenciado sob a MIT License - veja o arquivo LICENSE para mais detalhes.**
 
 **Lembre-se de:**
-
-* Substituir `SeuUsuario` pelo seu nome de usuário do GitHub.
 * Substituir `SuaStringDeConexao` pela string de conexão correta do seu banco de dados.
-* Ajustar a versão do .NET SDK, links de download e outras informações de acordo com o seu projeto.
-* Adicionar mais detalhes e seções relevantes ao seu projeto.
-
-
-
