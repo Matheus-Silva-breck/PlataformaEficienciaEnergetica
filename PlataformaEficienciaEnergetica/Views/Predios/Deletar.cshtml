@@ -1,0 +1,24 @@
+﻿@model PlataformaEficienciaEnergetica.Models.Predio
+
+<h1>Deletar Prédio</h1>
+
+<p>Tem certeza de que deseja deletar este prédio?</p>
+
+<div>
+    <label>Nome:</label>
+    @Model.Nome
+</div>
+<div>
+    <label>Consumo Energético:</label>
+    @Model.ConsumoEnergetico
+</div>
+<div>
+    <label>Uso de Energia Renovável:</label>
+    @Model.UsoEnergiaRenovavel
+</div>
+
+
+<form asp-action="ConfirmarDelecao" method="post">
+    <input type="hidden" asp-for="PredioId" />
+    <button type="submit">Confirmar Deleção</button>
+</form>

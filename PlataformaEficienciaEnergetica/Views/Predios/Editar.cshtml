@@ -1,0 +1,23 @@
+﻿@model PlataformaEficienciaEnergetica.Models.Predio
+
+<h1>Editar Prédio</h1>
+
+<form asp-action="Editar" method="post">
+    <input type="hidden" asp-for="PredioId" />
+    <div>
+        <label asp-for="Nome" class="control-label">Nome:</label>
+        <input asp-for="Nome" class="form-control" />
+        <span asp-validation-for="Nome" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="ConsumoEnergetico" class="control-label">Consumo Energético:</label>
+        <input asp-for="ConsumoEnergetico" class="form-control" />
+        <span asp-validation-for="ConsumoEnergetico" class="text-danger"></span>
+    </div>
+    <div>
+        <label asp-for="UsoEnergiaRenovavel" class="control-label">Uso de Energia Renovável:</label>
+        <input asp-for="UsoEnergiaRenovavel" class="form-control" />
+        <span asp-validation-for="UsoEnergiaRenovavel" class="text-danger"></span>
+    </div>
+    <button type="submit">Salvar</button>
+</form>

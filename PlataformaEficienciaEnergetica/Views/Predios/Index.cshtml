@@ -1,0 +1,35 @@
+﻿@model IEnumerable<PlataformaEficienciaEnergetica.Models.Predio>
+
+<h1>Lista de Prédios</h1>
+
+@if (Model != null && Model.Any())
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Consumo Energético</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var predio in Model)
+            {
+                <tr>
+                    <td>@predio.Nome</td>
+                    <td>@predio.ConsumoEnergetico</td>
+                    <td>
+                        <a asp-controller="Predios" asp-action="Editar" asp-route-id="@predio.PredioId">Editar</a> |
+                        <a asp-controller="Predios" asp-action="Deletar" asp-route-id="@predio.PredioId">Excluir</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>Não há prédios cadastrados.</p>
+}
+
+<a asp-controller="Predios" asp-action="Criar" class="btn btn-primary">Adicionar Novo Prédio</a>
